@@ -1,4 +1,5 @@
 # Making a copy
+```sh
 git clone https://github.com/your-username/your-repo.git new-project
 cd new-project
 rm -rf .git  # Removes git history so it’s a fresh start
@@ -6,8 +7,9 @@ git init  # Reinitialize Git for the new project
 git add .
 git commit -m "Initial commit from boilerplate"
 git branch -M main
-git remote add origin https://github.com/your-username/new-repo.git # your new project's repo
+git remote add origin https://github.com/your-username/new-repo.git # Your new project's repo
 git push -u origin main
+```
 
 # React + TypeScript + Vite
 
