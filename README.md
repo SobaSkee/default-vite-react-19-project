@@ -1,6 +1,6 @@
 # Making a copy
 ```sh
-git clone https://github.com/your-username/your-repo.git new-project
+git clone https://github.com/SobaSkee/default-vite-react-19-project.git new-project # Change new-project with your project name
 cd new-project
 rm -rf .git  # Removes git history so it’s a fresh start
 git init  # Reinitialize Git for the new project
